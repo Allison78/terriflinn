@@ -1,0 +1,11 @@
+
+.app-bar {
+  background-color: white;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .header-img {
+      height: 75px;
+    }
+  }
+}

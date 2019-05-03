@@ -1,0 +1,16 @@
+.grid-container {
+  margin: 50px 15%;
+  .tn-button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.3;
+    }
+    .portfolio-thumbnail {
+      width: 100%;
+  }
+  }
+  
+}

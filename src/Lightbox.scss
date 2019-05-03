@@ -1,0 +1,41 @@
+.lightbox {
+  margin: 30px 15%;
+  outline: none !important;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: none;
+    .portfolio {
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      &-img-container {
+        padding: 10px;
+        .portfolio-img {
+          padding-bottom: 10px;
+          text-align: center;
+          .img {
+            width: 90%;
+          }
+        }
+      }
+      .icon-container {
+        min-width: 60px;
+        .nav-bar {
+          background-color: white;
+          color: #787878;
+          &:hover {
+            color: #dadada;
+          }
+        }
+      }
+    }
+    .descriptions {
+      padding: 10px;
+      border-top: 1px solid #787878;
+    }
+  }
+}
